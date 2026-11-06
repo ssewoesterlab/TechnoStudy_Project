@@ -22,7 +22,6 @@ public class BaseDriverParameter {
     @BeforeClass
     @Parameters("BrowserTipi")
     public void Setup(String browserTipi) {
-        // seleniumdaki static yani başlangıç kısımlar konacak
         switch (browserTipi.toLowerCase()) {
             case "firefox":
                 driver = new FirefoxDriver();
@@ -45,7 +44,6 @@ public class BaseDriverParameter {
 
     @AfterClass
     public void TearDown() {
-        // seleniumdaki BekleKapat
         MyFunc.Bekle(3);
         driver.quit();  // bütün açılmış windowları kapatır
     }

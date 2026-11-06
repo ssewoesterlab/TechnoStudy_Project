@@ -39,7 +39,6 @@ public class BaseDriver {
 
     @AfterClass
     public void TearDown() {
-        // seleniumdaki BekleKapat
         MyFunc.Bekle(3);
         driver.quit();  // bütün açılmış windowları kapatır
         LogTutma.info("Driver kapatıldı");
