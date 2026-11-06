@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MySuite" parallel="tests" thread-count="1">
+
+    <test name="test1">
+
+        <parameter name="BrowserType" value="Chrome"></parameter>
+        <classes>
+            <class name="TC05.TC05"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+
+        <parameter name="BrowserType" value="Firefox"></parameter>
+        <classes>
+            <class name="TC05.TC05"></class>
+        </classes>
+    </test>
+
+    <test name="test3">
+
+        <parameter name="BrowserType" value="Edge"></parameter>
+        <classes>
+            <class name="TC05.TC05"></class>
+        </classes>
+    </test>
+
+</suite>

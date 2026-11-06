@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuit" parallel="tests" thread-count="2">
+
+    <test name="test1">
+        <parameter name="BrowserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="TC01.TC01"></class>
+            <class name="TC02.TC02"></class>
+            <class name="TC03.TC03"></class>
+            <class name="TC04.TC04"></class>
+            <class name="TC07.Test1"></class>
+            <class name="TC08.TC08"></class>
+        </classes>
+        <groups>
+            <run>
+                <include name="Smoke Test"></include>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+    </test>
+
+    <test name="test2">
+        <parameter name="BrowserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="TC01.TC01"></class>
+            <class name="TC02.TC02"></class>
+            <class name="TC03.TC03"></class>
+            <class name="TC04.TC04"></class>
+            <class name="TC07.Test1"></class>
+            <class name="TC08.TC08"></class>
+        </classes>
+        <groups>
+            <run>
+                <include name="Smoke Test"></include>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+    </test>
+
+</suite>

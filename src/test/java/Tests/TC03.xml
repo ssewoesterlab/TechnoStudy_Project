@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuit">
+    <test name="test1">
+        <classes>
+            <class name="TC03.TC03"></class>
+        </classes>
+    </test>
+</suite>

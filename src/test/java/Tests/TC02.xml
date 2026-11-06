@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/TechnoStudy_Project1/src/TC02/TC02.java">
+    <classes><class name="TC02.TC02">
+        <methods><include name="TC02"/>
+        </methods>
+    </class></classes></test></suite>

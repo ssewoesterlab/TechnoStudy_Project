@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OpenMRS Test Suite" parallel="tests" thread-count="2">
+
+    <test name="Smoke Tests Only">
+        <parameter name="BrowserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="TC07.Test1"></class>
+        </classes>
+    </test>
+
+    <test name="Smoke Tests Only">
+        <parameter name="BrowserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="TC07.Test1"></class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
